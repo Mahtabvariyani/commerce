@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *{
+  background-color: gray; */
+/* } */
+
+
+@layer utilities{
+  .btn-DI{
+    @apply border-[1.2px] border-slate-300 px-2 rounded
+  }
+}
